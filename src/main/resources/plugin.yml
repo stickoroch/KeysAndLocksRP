@@ -1,0 +1,9 @@
+name: KeysAndLocksRP
+version: '${project.version}'
+main: stickoroch.keysandlocksrp.KeysAndLocksRP
+api-version: 1.18
+commands:
+  klreload:
+    permission: kalRP.RELOADNAHUYVESCONFIG
+  klgive:
+    permission: kalRP.get

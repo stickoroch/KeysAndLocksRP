@@ -1,0 +1,38 @@
+localization:
+  messages:
+    blockAlreadyLocked: '&cБлок уже с замком!'
+    lockUp: '&6Замок повешан!'
+    keyUp: '&6Замок закрыт на ключ!'
+    keyDown: '&6Замок снят!'
+    blockLockedDoor: '&cДверь заперта!'
+    blockLockedTrapDoor: '&cЛюк заперт!'
+    blockLockedChest: '&cСундук заперт!'
+    blockLockedBarrel: '&Бочка заперта!'
+    keyAlreadyUp: '&cКлюч уже привязан'
+    wrongKey: '&cНеверный ключ'
+  key:
+    data: 1
+    type: TRIPWIRE_HOOK
+    craft: [ "", "", "", "IRON_NUGGET", "IRON_NUGGET", "IRON_INGOT", "", "", "" ]
+    name: '&6Ключ'
+    lore:
+      - '@not'
+  bunchOfKeys:
+    data: 2
+    type: QUARTZ
+    craft: [ "", "", "", "", "CHEST", "IRON_INGOT", "" , "", "" ]
+    name: '&6Связка ключей'
+    lore:
+      - '&fМожет хранить 9 ключей'
+  lock:
+    data: 3
+    type: NETHERITE_INGOT
+    name: '&6Замок'
+    craft: [ "", "IRON_INGOT", "", "IRON_NUGGET", "CHEST", "IRON_INGOT", "", "IRON_INGOT", "" ]
+    lore:
+      - '@not'
+params:
+  breakSpeed: 2
+  protectAreaRadius: 5
+  bokSize: 9 #min 9
+  lockKd: 600
